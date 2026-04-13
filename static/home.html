@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>Sito web</title>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
 <body>
     <h1>Gestione Orario</h1>
     
@@ -9,6 +12,32 @@
         <button id="btn-ora">Aggiorna Ora</button>
     </div>
 
+        <hr>
+
+    <div class="card">
+        <h3>Saluto Personalizzato</h3>
+        <input type="text" id="input-nome" placeholder="Scrivi il tuo nome...">
+        <button id="btn-saluto">Invia al Server</button>
+        <h2 id="risposta-saluto"></h2>
+    </div>
+
+    <hr>
+
+    <div class="somma">
+        <h3>Somma numeri</h3>
+        <input type="number" id="input-numero1" placeholder="Numero 1">
+        <input type="number" id="input-numero2" placeholder="Numero 2">
+        <button id="btn-somma">Invia al Server</button>
+        <h2 id="risultato-somma"></h2>
+    </div>
+
+    <div class="sottrazione">
+        <h3>sottrazione</h3>
+        <input type="number" id="input-numero1" placeholder="Numero 1">
+        <input type="number" id="input-numero2" placeholder="Numero 2">
+        <button id="btn-sottrazione">Invia al Server</button>
+        <h2 id="risultato-sottrazione"></h2>
+    </div>
     <script src="/static/java.js"></script>
 </body>
 </html>
